@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action ="http://server.ai-school.com" method ="POST">
+        <label for = "userid">아이디</label>
+        <input id = "userid" name = "userid" type = "text" placeholder = "아이디를 입력하세요." />
+        <br/>
+        <label for = "userpassward">비밀번호</label>
+        <input id = "userpassward" name="userpassward" type ="password" placeholder="비밀번호를 입력해주세요." />
+        <br/>
+        <label for = "questpass">비밀번호에 대한 질문</label>
+        <select name="whatpassward">
+            <option value="어릴때 살던 동네">어릴때 살던 동네는?</option>
+            <option value="내가 좋아하는 영화">내가 좋아하는 영화는?</option>
+            <option value="내가 졸업한 고등학교">내가 졸업한 고등학교는?</option>
+        </select>
+        <input id="pwquest_input" name="pwquest" placeholder="질문에 대답해 주세요"/>
+        <button name="전송" type="submit">전송하기</button>
+        <textarea name="content" cols="60" rows = "20">
+            안녕하세요 저는 이경섭입니다.
+        </textarea>
+    </form>
+</body>
+</html>
